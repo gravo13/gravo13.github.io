@@ -1,0 +1,195 @@
+.hed {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(109, 184, 149);
+    height: 108px;
+    border-bottom: 1px solid rgb(109, 109, 109);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.hed-pad {
+    height: 108px;
+}
+
+.hed h2 {
+    font-size: 25px;
+    display: inline-block;
+    margin: 15px;
+    padding: 2px;
+    position: relative;
+    top: 20px;
+
+}
+
+.hed h3 {
+    display: inline-block;
+    margin: 15px;
+    padding: 2px;
+    position: relative;
+    top: 20px;
+}
+
+.hedimg {
+    height: 80px;
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    float: left;
+}
+
+#hedimg {
+    text-align: left;
+}
+
+.bod {
+    margin: 0;
+    background-color: rgb(218, 255, 237);
+}
+
+.hed div {
+    text-align: center;
+}
+
+div a {
+    text-decoration: none;
+}
+
+.test {
+    border: 1px solid black;
+}
+
+div a:hover {
+    color: rgb(175, 85, 0);
+}
+
+div a:visited:not(:hover) {
+    color: rgb(0, 0, 0);
+}
+
+.rel {
+    position: relative;
+    display: block;
+    top: 108px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.rel .tab {
+    display: inline-block;
+    border: 2px solid rgb(105, 172, 140);
+    border-radius: 5px;
+    padding: 20px 40px;
+    position: relative;
+    display: inline-block;
+    left: 12px;
+    background-color: rgb(130, 223, 179);
+}
+
+.rel p:hover {
+    background-color: rgb(190, 240, 216);
+    color: rgb(0, 0, 0);
+}
+
+.relM {
+    position: relative;
+    display: block;
+    top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 0% 25%
+}
+
+.relM p {
+    display: inline-block;
+    border: 2px solid rgb(105, 172, 140);
+    border-radius: 5px;
+    padding: 20px 40px;
+    position: relative;
+    display: inline-block;
+    background-color: rgb(130, 223, 179);
+}
+
+.relM p:hover {
+    background-color: rgb(190, 240, 216);
+    color: rgb(0, 0, 0);
+}
+
+.musicrel {
+
+    border-radius: 7px;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.scbed {
+    display: inline-block;
+    position: static;
+    margin: 10px;
+}
+
+.other {
+    border: 1px solid rgb(125, 190, 159);
+    border-radius: 7px;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(178, 253, 218);
+}
+
+.imgcent {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imgcent img {
+    border: 1px solid rgb(125, 190, 159);
+    border-radius: 7px;
+}
+
+.abt {
+    border-radius: 7px;
+    position: relative;
+    width: 85px;
+    margin: auto;
+    top: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+}
+
+.ig {
+    height: 75px;
+}
+
+.cont {
+    border: 1px solid rgb(125, 190, 159);
+    border-radius: 7px;
+    position: relative;
+    width: 250px;
+    margin: auto;
+    top: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(178, 253, 218);
+}
